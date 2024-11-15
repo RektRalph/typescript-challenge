@@ -1,10 +1,12 @@
 /**
- * 找出數字陣列中的最大數
- * @param numbers - 要找出最大數的數字陣列
- * 
- * 這個函式需要找出輸入的數字陣列中的最大數。你可以使用 JavaScript 的 Math.max 方法和展開運算符 (...) 來完成這個任務。
- * Math.max 方法可以接受多個參數並返回其中的最大值，展開運算符可以將一個陣列轉換為多個參數。
+ * Find the maximum number in the number array
+ * @param numbers - Find out the maximum number of numbers
+ *
+ * This function needs to find the maximum number in the input digital array. You can use JavaScript of Math.max
+ * Methods and expand operators (...) to complete this task。
+ * Math.max Methods can accept multiple parameters and return the maximum value.
+ * Expand operational symbols can convert one array into multiple parameters.
  */
 export function findMaxNumber(numbers: number[]): number {
-    // 在此實現函式
+  return Math.max(...numbers);
 }
